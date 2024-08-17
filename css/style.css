@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(grey, purple);
+}
+
+.container-time{
+    flex: 50;
+    padding-left: 25%;
+
+}
+
+.TimeClock{
+    background-color: grey;
+    border-radius: 10px;
+    width: 260px;
+    height: 140px;
+    padding: 10px;
+}
+.time-num{
+    text-align: center;
+    align-items: baseline;
+    font-size: 50px ;
+}
+.btns{
+    display: flex;
+}
+
+button{
+    font-size: 30px;
+    padding: 5px;
+    margin: 2px;
+    flex: 3;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+/* Timer CSS ABOVE */
+
+.container-input{
+    flex: 50;
+    
+}
+
+input{
+    flex: 5;
+    font-size: 25px;
+    width: 300px;
+    height: 80px;
+    border-radius: 20px ;
+    text-align: center;
+}
+
+.task{
+    margin-top: 20px;
+    display: flex;
+    width: 350px;
+}
+
+.task li{
+    list-style: none;
+    flex: 5;
+    font-size: 40px;
+}

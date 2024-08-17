@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Helper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container-time">
+      <div class="TimeClock">
+
+        <div class="time-num" id="timer">
+            00:00:00
+        </div>
+
+        <div class="btns">
+            <button id="play-btn">
+                <i class="fa-solid fa-play"></i>
+            </button>
+
+            <button id="stop-reset-btn">
+                <i class="fa-solid fa-stop"></i>
+            </button>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container-input">
+        <input type="text" placeholder="TO DO LIST HERE" id="input-tds">
+        <button id= "addTask-btn">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+        <div id="taskPlaceholder">
+            
+        </div>
+    </div>
+
+
+<script src="/js/script.js"></script>
+<script src="/js/todolist.js"></script>
+</body>
+</html>
